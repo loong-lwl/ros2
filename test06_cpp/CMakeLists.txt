@@ -12,7 +12,6 @@ find_package(rclcpp REQUIRED)
 install(DIRECTORY launch DESTINATION share/${PROJECT_NAME})
 install(PROGRAMS
   launch/py/turtlesim_color_change.py
- /home/zi/test_class/src/test01_py/py_topic/talker_str_py.py
   DESTINATION lib/${PROJECT_NAME}
 )
 if(BUILD_TESTING)
